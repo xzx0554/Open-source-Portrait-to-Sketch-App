@@ -1,3 +1,2 @@
 # Open-source-Portrait-to-Sketch-App
-This is a portrait-to-sketch app written in Flask, charged on a per-use basis, which utilizes a deep learning model called ArtLine for drawing and the iic/cv_unet_image-matting for portrait extraction.
-
+This is a Flask-written portrait-to-simplified-sketch app that charges per card code. It uses the deep learning model ArtLine for drawing and iic/cv_unet_image-matting for portrait extraction, mainly targeting custom laser printing.

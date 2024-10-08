@@ -1,2 +1,2 @@
 # Open-source-Portrait-to-Sketch-App
-This is a Flask-written portrait-to-simplified-sketch app that charges per card code. It uses the deep learning model ArtLine for drawing and iic/cv_unet_image-matting for portrait extraction, mainly targeting custom laser printing.
+This is a Flask-written portrait-to-simplified-sketch app that charges via card code. It utilizes the deep learning model ArtLine for drawing and the iic/cv_unet_image-matting for portrait extraction, primarily aimed at custom laser printing. You need to create a 'static' folder yourself, where the 'upload' and 'download' folders will store the images uploaded and downloaded by users, respectively. Under the 'static' folder, you should upload your own icons and store QR codes for your shop.

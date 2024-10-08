@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>帮助与购买</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button onclick="location.href='/'" class="btn btn-primary mt-3">返回主页</button>
+        <h1 class="text-center mb-4">帮助与购买</h1>
+
+        <p>每次免费生成含有水印的图片，下载无水印图片收费三元。卡密严紧非购买者使用，以保护用户隐私与数据。</p>
+        <p>卡密扫二维码购买,或在微店中搜索opentools工具集</p>
+        <img src="{{ url_for('static', filename='dp_qr.png') }}" alt="店铺二维码" class="img-fluid">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
